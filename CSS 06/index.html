@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Buckstars Online Order Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<h1>Buckstars Online Order Form</h1>
+	<form action="#" method="post">
+		<label for="coffee-type">Type of Coffee:</label>
+		<select id="coffee-type" name="coffee-type">
+			<option value="regular">Regular</option>
+			<option value="decaf">Decaf</option>
+			<option value="50/50">50/50</option>
+		</select>
+
+		<label for="coffee-temp">Coffee Temperature:</label>
+		<input type="radio" id="hot" name="coffee-temp" value="hot">
+		<label for="hot">Hot</label>
+		<input type="radio" id="iced" name="coffee-temp" value="iced">
+		<label for="iced">Iced</label>
+
+		<label for="sweetener">Sweetener:</label>
+		<select id="sweetener" name="sweetener">
+			<option value="sugar">Sugar</option>
+			<option value="splenda">Splenda</option>
+			<option value="equal">Equal</option>
+			<option value="sweet-n-low">Sweet n' Low</option>
+			<option value="stevia">Stevia</option>
+            <option value="none">None</option>
+		</select>
+
+		<label for="creamer">Creamer:</label>
+		<select id="creamer" name="creamer">
+			<option value="half-n-half">Half &amp; Half</option>
+			<option value="whole-milk">Whole Milk</option>
+			<option value="skim-milk">Skim Milk</option>
+			<option value="almond-milk">Almond Milk</option>
+			<option value="oat-milk">Oat Milk</option>
+            <option value="black">Black</option>
+		</select>
+
+		<label for="size">Size:</label>
+		<select id="size" name="size">
+			<option value="small">Small</option>
+			<option value="medium">Medium</option>
+			<option value="large">Large</option>
+		</select>
+
+		<label for="to-go">To Go:</label>
+		<input type="checkbox" id="to-go" name="to-go" value="true">
+
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name">
+
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone">
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

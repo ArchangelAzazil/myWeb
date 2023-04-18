@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(92, 4, 70, 0.73)), url('css06coffee.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #140a01;
+   
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 0;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  select, input[type="text"], input[type="tel"] {
+    width: 96%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #bcaaa4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #8b572a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #bcaaa4;
+  }
+
+  input[type="text"], input[type="tel"] {
+    padding: 8px;
+  }
+  

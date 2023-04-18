@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(229, 202, 170);
+}
+  
+ 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  
+.section {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #b3afaf;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.section h2 {
+    margin-top: 0;
+}
+  
+.section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+  
+  
+@media (max-width: 800px) {
+    .section {
+      width: 100%;
+    }
+}
+  
